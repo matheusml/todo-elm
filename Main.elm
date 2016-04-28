@@ -1,5 +1,17 @@
-import Html exposing (Html)
+import Html exposing (Html, div, input, button)
+import Html.Attributes exposing (..)
 
 main : Html
 main =
-  Html.text "Hello"
+  view
+  
+view : Html
+view = 
+  div []
+    [ input 
+        [ placeholder "new todo"
+        , value ""
+        ]
+        []    
+    ]
+    
