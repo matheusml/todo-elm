@@ -1,7 +1,7 @@
-import Html exposing (..)
-import Html.Attributes exposing (..)
-import Html.Events exposing (..)
-import Signal exposing (..)
+import Html exposing (Html, div, input, text)
+import Html.Attributes exposing (placeholder, value, style)
+import Html.Events exposing (on, targetValue)
+import Signal exposing (message)
 import String
 import StartApp.Simple as StartApp
 
